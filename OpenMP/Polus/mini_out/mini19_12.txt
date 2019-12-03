@@ -1,0 +1,49 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 492729: <./mini.o> in cluster <MSUCluster> Done
+
+Job <./mini.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 23:25:21 2019
+Job was executed on host(s) <15*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 23:30:50 2019
+                            <4*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/dep_gemver> was used as the working directory.
+Started at Fri Nov 29 23:30:50 2019
+Terminated at Fri Nov 29 23:30:52 2019
+Results reported at Fri Nov 29 23:30:52 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./mini.o
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.49 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   1 sec.
+    Turnaround time :                            331 sec.
+
+The output (if any) follows:
+
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+end   dump: w
+==END   DUMP_ARRAYS==
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.77 448.65 492.12 570.49 640.13 730.07 834.63 933.14 976.68 1117.21 1142.28 1302.87 1371.04 1459.83 1580.03 1644.09 1711.63 1844.36 1934.29 2021.10 
+1998.78 2242.60 2317.84 2419.34 2458.69 2566.84 2672.11 2803.87 2852.09 2960.83 2995.86 3146.49 3193.64 3330.56 3417.51 3480.86 3583.00 3693.20 3760.02 3815.05 
+end   dump: w
+==END   DUMP_ARRAYS==
+Time in seconds = 0.060103

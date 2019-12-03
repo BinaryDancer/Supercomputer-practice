@@ -1,0 +1,101 @@
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 492050: <./mini.o> in cluster <MSUCluster> Done
+
+Job <./mini.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 22:48:47 2019
+Job was executed on host(s) <6*polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 22:51:15 2019
+                            <1*polus-c4-ib.bmc.hpc.cs.msu.ru>
+                            <10*polus-c2-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/dep_gemver> was used as the working directory.
+Started at Fri Nov 29 22:51:15 2019
+Terminated at Fri Nov 29 22:51:17 2019
+Results reported at Fri Nov 29 22:51:17 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./mini.o
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   5.87 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   1 sec.
+    Turnaround time :                            150 sec.
+
+The output (if any) follows:
+
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+end   dump: w
+==END   DUMP_ARRAYS==
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.87 507.88 560.14 658.22 731.73 823.14 952.01 1063.65 1108.16 1273.75 1302.16 1482.95 1557.00 1666.08 1797.49 1867.36 1948.06 2101.73 2202.56 2304.69 
+2270.96 2545.70 2632.53 2748.66 2787.80 2917.71 3037.60 3184.31 3246.00 3367.44 3401.99 3576.64 3627.69 3786.74 3883.08 3961.93 4071.27 4192.17 4274.94 4342.51 
+end   dump: w
+==END   DUMP_ARRAYS==
+Time in seconds = 0.104544
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 492668: <./mini.o> in cluster <MSUCluster> Done
+
+Job <./mini.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 23:24:20 2019
+Job was executed on host(s) <7*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 23:29:29 2019
+                            <2*polus-c3-ib.bmc.hpc.cs.msu.ru>
+                            <1*polus-c1-ib.bmc.hpc.cs.msu.ru>
+                            <7*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/dep_gemver> was used as the working directory.
+Started at Fri Nov 29 23:29:29 2019
+Terminated at Fri Nov 29 23:29:30 2019
+Results reported at Fri Nov 29 23:29:30 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./mini.o
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.93 sec.
+    Max Memory :                                 4 MB
+    Average Memory :                             2.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   2 sec.
+    Turnaround time :                            310 sec.
+
+The output (if any) follows:
+
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+end   dump: w
+==END   DUMP_ARRAYS==
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.65 380.43 413.17 472.52 530.14 602.91 691.57 776.73 813.26 934.90 958.87 1088.76 1144.57 1217.17 1325.07 1381.17 1435.87 1548.99 1624.60 1692.27 
+1683.29 1890.33 1947.48 2033.60 2068.07 2162.54 2247.00 2365.43 2403.81 2493.84 2525.51 2647.70 2690.68 2805.87 2880.50 2940.80 3018.24 3110.08 3158.91 3202.16 
+end   dump: w
+==END   DUMP_ARRAYS==
+Time in seconds = 0.062633

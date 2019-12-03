@@ -1,0 +1,51 @@
+Sender: LSF System <lsfadmin@polus-c3-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 492563: <./mini.o> in cluster <MSUCluster> Done
+
+Job <./mini.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 23:23:19 2019
+Job was executed on host(s) <1*polus-c3-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Fri Nov 29 23:25:16 2019
+                            <7*polus-c1-ib.bmc.hpc.cs.msu.ru>
+                            <2*polus-c2-ib.bmc.hpc.cs.msu.ru>
+                            <1*polus-c4-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/dep_gemver> was used as the working directory.
+Started at Fri Nov 29 23:25:16 2019
+Terminated at Fri Nov 29 23:25:19 2019
+Results reported at Fri Nov 29 23:25:19 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./mini.o
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   6.50 sec.
+    Max Memory :                                 25 MB
+    Average Memory :                             17.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                163
+    Run time :                                   2 sec.
+    Turnaround time :                            120 sec.
+
+The output (if any) follows:
+
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 0.00 
+end   dump: w
+==END   DUMP_ARRAYS==
+==BEGIN DUMP_ARRAYS==
+begin dump: w
+0.77 446.59 493.22 575.56 645.35 727.52 841.89 938.85 978.23 1124.07 1149.98 1308.05 1373.15 1470.66 1580.52 1642.25 1712.90 1852.15 1940.27 2030.88 
+1999.38 2241.06 2318.06 2419.79 2456.50 2570.49 2677.82 2801.28 2853.97 2963.89 2994.19 3147.86 3191.16 3333.09 3416.44 3485.22 3581.77 3696.38 3765.11 3825.34 
+end   dump: w
+==END   DUMP_ARRAYS==
+Time in seconds = 0.155983
