@@ -1,0 +1,52 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 523942: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 32;#BSUB -W 00:15;#BSUB -o large32_2;#BSUB -e large.o.%J.err;OMP_NUM_THREADS=1 mpiexec large.o> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 32;#BSUB -W 00:15;#BSUB -o large32_2;#BSUB -e large.o.%J.err;OMP_NUM_THREADS=1 mpiexec large.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:14:10 2019
+Job was executed on host(s) <3*polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:15:32 2019
+                            <13*polus-c1-ib.bmc.hpc.cs.msu.ru>
+                            <7*polus-c4-ib.bmc.hpc.cs.msu.ru>
+                            <9*polus-c3-ib.bmc.hpc.cs.msu.ru>
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/MPI> was used as the working directory.
+Started at Sun Dec 15 22:15:32 2019
+Terminated at Sun Dec 15 22:15:35 2019
+Results reported at Sun Dec 15 22:15:35 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 32
+#BSUB -W 00:15
+#BSUB -o large32_2
+#BSUB -e large.o.%J.err
+OMP_NUM_THREADS=1 mpiexec large.o
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   4.98 sec.
+    Max Memory :                                 178 MB
+    Average Memory :                             119.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              7
+    Max Threads :                                18
+    Run time :                                   3 sec.
+    Turnaround time :                            85 sec.
+
+The output (if any) follows:
+
+Time in seconds = 0.018750
+
+
+PS:
+
+Read file <large.o.523942.err> for stderr output of this job.
+

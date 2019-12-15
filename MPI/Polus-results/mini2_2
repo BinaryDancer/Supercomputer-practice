@@ -1,0 +1,49 @@
+Sender: LSF System <lsfadmin@polus-c1-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 523870: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:15;#BSUB -o mini2_2;#BSUB -e mini.o.%J.err;OMP_NUM_THREADS=1 mpiexec mini.o> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:15;#BSUB -o mini2_2;#BSUB -e mini.o.%J.err;OMP_NUM_THREADS=1 mpiexec mini.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:14:07 2019
+Job was executed on host(s) <2*polus-c1-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:14:16 2019
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/MPI> was used as the working directory.
+Started at Sun Dec 15 22:14:16 2019
+Terminated at Sun Dec 15 22:14:17 2019
+Results reported at Sun Dec 15 22:14:17 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 2
+#BSUB -W 00:15
+#BSUB -o mini2_2
+#BSUB -e mini.o.%J.err
+OMP_NUM_THREADS=1 mpiexec mini.o
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.48 sec.
+    Max Memory :                                 4 MB
+    Average Memory :                             2.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   3 sec.
+    Turnaround time :                            10 sec.
+
+The output (if any) follows:
+
+Time in seconds = 0.000045
+
+
+PS:
+
+Read file <mini.o.523870.err> for stderr output of this job.
+

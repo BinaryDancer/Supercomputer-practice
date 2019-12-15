@@ -1,0 +1,49 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 523910: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 4;#BSUB -W 00:15;#BSUB -o medium4_0;#BSUB -e medium.o.%J.err;OMP_NUM_THREADS=1 mpiexec medium.o> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 4;#BSUB -W 00:15;#BSUB -o medium4_0;#BSUB -e medium.o.%J.err;OMP_NUM_THREADS=1 mpiexec medium.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:14:09 2019
+Job was executed on host(s) <4*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:14:44 2019
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/MPI> was used as the working directory.
+Started at Sun Dec 15 22:14:44 2019
+Terminated at Sun Dec 15 22:14:46 2019
+Results reported at Sun Dec 15 22:14:46 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 4
+#BSUB -W 00:15
+#BSUB -o medium4_0
+#BSUB -e medium.o.%J.err
+OMP_NUM_THREADS=1 mpiexec medium.o
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.58 sec.
+    Max Memory :                                 7 MB
+    Average Memory :                             5.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   2 sec.
+    Turnaround time :                            37 sec.
+
+The output (if any) follows:
+
+Time in seconds = 0.001604
+
+
+PS:
+
+Read file <medium.o.523910.err> for stderr output of this job.
+

@@ -1,0 +1,49 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 523930: <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:15;#BSUB -o large2_2;#BSUB -e large.o.%J.err;OMP_NUM_THREADS=1 mpiexec large.o> in cluster <MSUCluster> Done
+
+Job <# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #;source /polusfs/setenv/setup.SMPI;#BSUB -n 2;#BSUB -W 00:15;#BSUB -o large2_2;#BSUB -e large.o.%J.err;OMP_NUM_THREADS=1 mpiexec large.o> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:14:09 2019
+Job was executed on host(s) <2*polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-skpod19-328-11> in cluster <MSUCluster> at Sun Dec 15 22:14:52 2019
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11> was used as the home directory.
+</home_edu/edu-cmc-skpod19-328/edu-cmc-skpod19-328-11/MPI> was used as the working directory.
+Started at Sun Dec 15 22:14:52 2019
+Terminated at Sun Dec 15 22:14:53 2019
+Results reported at Sun Dec 15 22:14:53 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# this file was automaticly created by mpisubmit.pl script for edu-cmc-skpod19-328-11 #
+source /polusfs/setenv/setup.SMPI
+#BSUB -n 2
+#BSUB -W 00:15
+#BSUB -o large2_2
+#BSUB -e large.o.%J.err
+OMP_NUM_THREADS=1 mpiexec large.o
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.44 sec.
+    Max Memory :                                 7 MB
+    Average Memory :                             5.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   2 sec.
+    Turnaround time :                            44 sec.
+
+The output (if any) follows:
+
+Time in seconds = 0.045829
+
+
+PS:
+
+Read file <large.o.523930.err> for stderr output of this job.
+
