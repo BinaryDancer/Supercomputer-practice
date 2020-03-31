@@ -1,5 +1,5 @@
 /* Include benchmark-specific header. */
-#define MINI_DATASET
+#define LARGE_DATASET
 
 #include "gemver.h"
 
@@ -104,12 +104,12 @@ void kernel_gemver(int n,
     MPI_Status status;
     if (rank == 0) {
         float (*temp_x)[n];
-        temp_x = (float(*)[n]) malloc((n) * sizeof(float));
+        temp_x = (float (*)[n]) malloc((n) * sizeof(float));
 
         for (i = 0; i < n; i++) {
             x[i] = x[i] + z[i];
         }
-        
+
         for (i = 1; i < nProcs; ++i) {
             MPI_Recv(*temp_x, n, MPI_FLOAT, i, 23, MPI_COMM_WORLD, &status);
             for (j = 0; j < n; j++) {
@@ -201,7 +201,8 @@ int main(int argc, char **argv) {
         int j;
         for (j = 1; j < nProcs; j++) {
             int temp_size = n / nProcs + (j < n % nProcs);
-            MPI_Recv(&((*w)[n / nProcs * j + min(j, n % nProcs)]), temp_size, MPI_FLOAT, j, 231299, MPI_COMM_WORLD, &status);
+            MPI_Recv(&((*w)[n / nProcs * j + min(j, n % nProcs)]), temp_size, MPI_FLOAT, j, 231299, MPI_COMM_WORLD,
+                     &status);
         }
     } else {
         MPI_Send(&((*w)[start_index]), size, MPI_FLOAT, 0, 231299, MPI_COMM_WORLD);
